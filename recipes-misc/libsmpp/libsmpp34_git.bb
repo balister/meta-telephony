@@ -13,7 +13,7 @@ PR = "0"
 
 PARALLEL_MAKE = ""
 
-inherit autotools_stage pkgconfig
+inherit autotools-brokensep pkgconfig
 
 PACKAGES =+ "${PN}-apps"
 FILES_${PN}-apps = "${bindir}/*"
