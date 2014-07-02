@@ -10,7 +10,7 @@ EXTRA_OECONF = " "
 
 inherit autotools
 
-PV = "0.13.0+gitr${SRCPV}"
+PV = "0.1+gitr${SRCPV}"
 
 SRCREV = "a2b806c375dc6b3e3b7df0496e06b34b1520bd1b"
 SRC_URI = "git://git.osmocom.org/osmo-bts.git;protocol=git \
