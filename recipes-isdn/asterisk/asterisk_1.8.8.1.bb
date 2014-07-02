@@ -50,7 +50,7 @@ EXTRA_OECONF = " \
         --without-lua \
         --disable-xmldoc"
 
-inherit autotools update-rc.d
+inherit autotools-brokensep update-rc.d
 
 FILES_${PN}-dbg += "${libdir}/asterisk/modules/.debug"
 
