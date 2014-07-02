@@ -1,0 +1,23 @@
+From 6b703aca9078610364773e135a823c62e5ef9f34 Mon Sep 17 00:00:00 2001
+From: Philip Balister <philip@balister.org>
+Date: Wed, 2 Jul 2014 10:16:14 -0400
+Subject: [PATCH] Remove sysmobts tests from the build.
+
+Signed-off-by: Philip Balister <philip@balister.org>
+---
+ tests/Makefile.am | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/tests/Makefile.am b/tests/Makefile.am
+index 633b6a4..d4fadf9 100644
+--- a/tests/Makefile.am
++++ b/tests/Makefile.am
+@@ -1,4 +1,4 @@
+-SUBDIRS = paging cipher sysmobts agch misc
++SUBDIRS = paging cipher agch misc
+ 
+ # The `:;' works around a Bash 3.2 bug when the output is not writeable.
+ $(srcdir)/package.m4: $(top_srcdir)/configure.ac
+-- 
+1.8.3.1
+
